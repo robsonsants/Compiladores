@@ -1,0 +1,21 @@
+start 
+
+inteiro a = 10
+inteiro b = 2
+inteiro c = 30
+
+  if>>(a > b){ 
+    while>>(a * a > b){  
+      a-- 
+      >>escreva("Valor a ", "\n")
+    }
+  }else>>{
+    >>escreva("Valor b")
+  }
+
+  inteiro d 
+  for>> (d = 1; d <= 10; d++) {  
+    >>escreva(d, "\n")
+  } 
+
+end 

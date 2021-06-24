@@ -1,0 +1,14 @@
+start 
+
+real nota1, nota2, media
+
+>>escreva("Escreva a primeira nota:", "\n")
+<<leia(nota1)
+>>escreva("Escreva a segunda nota:", "\n")
+<<leia(nota2)
+
+media = (( nota1 * 3.5 + nota2 * 7.5)/ (3.5 + 7.5))
+>>escreva("MEDIA = ", media, "\n")
+
+
+end

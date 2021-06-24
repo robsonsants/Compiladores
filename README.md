@@ -70,6 +70,17 @@ Para escrever na tela é necessário usar o comando >>escreva
 
 ```
 
+# OPERAÇÃO DE LEITURA
+
+Para receber informação na tela é necessário usar o comando <<leia
+
+```
+real num1
+>>escreva "sua primeira nota"
+num1 <<leia 
+
+```
+								   
 # OPERAÇÕES MATEMÁTICAS
 
 Para utilizar as operações matemáticas é necessário seguir os exemplos abaixo
@@ -184,6 +195,33 @@ media = (( nota1 * 3.5 + nota2 * 7.5)/ (3.5 + 7.5))
 end
 
 ```
-                                                 
+# 💻  EXEMPLO 2 
+	
+💻  O exemplo a seguir foi feito a partir para testar as estruturas de repetição
+	
+```
+start 
+
+inteiro a = 10
+inteiro b = 2
+inteiro c = 30
+
+  if>>(a > b){ 
+    while>>(a * a > b){  
+      a-- 
+      >>escreva("Valor a ", "\n")
+    }
+  }else>>{
+    >>escreva("Valor b")
+  }
+
+  inteiro d 
+  for>> (d = 1; d <= 10; d++) {  
+    >>escreva(d, "\n")
+  } 
+
+end 
+
+```
                                                                                                   
                                                                    
